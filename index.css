@@ -45,7 +45,7 @@ div
 {
 	position: relative;
 	width: 100%;
-	height: 80vh;
+	height: 89vh;
 }
 div.content
 {
@@ -61,27 +61,30 @@ div.content h2
 {
 	-webkit-text-stroke: 1px #ffffff;
 	color: transparent;
-	font-size: 7em;
-	line-height: 135px;
+	font-size: 40px;
+	line-height: 10px;
 }
 div.content h2 c
 {
 	color: #da1717;
 	-webkit-text-stroke: 0 #fff;
+	/* font-size: 50px; */
 }
 div.content h2 span
 {
 	position: relative;
 	background:#ff9933;
-	font-size: 0.2em;
+	/* font-size: 0.25em; */
 	display: inline-block;
 	color: #e9e1e1;
-	padding: 0 10px;
-	top: -30px;
+	padding: 0 25px;
+	top: -8px;
 	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 1.5em;
+	font-weight: 900;
+	line-height: 2.5em;
 	-webkit-text-stroke: 0px #fff;
+	font-size: 15px;
+	border-radius: 15px;
 }
 /* div.content img
 {
@@ -111,11 +114,63 @@ h5 {
         height: auto; /* Maintain the aspect ratio */
 		/* background-image: url(sky1.jpg); */
     }
+	div.content h2 span{
+		/* margin: 130px; */
+		/* line-height: 20px; */
+		/* justify-content: center; */
+		top: 35px;
+
+	}
+	
 }
 @media (max-width: 480px) {
     .fireworks img {
         width: auto;
         height: auto;
 		/* background-image: url(sky2.jpg); */
+		div.content h2{
+			line-height: 10px;
+		}
+		div.content h2 span{
+			/* margin: 130px; */
+			top: 35px;
+			/* justify-content: center; */
+		}
+		div.content h2 c{
+			/* margin: 130px; */
+			line-height: 5px;
+			/* justify-content: center; */
+		}
     }
 }
+
+/* @media (max-width: 1440px) {
+    .fireworks img {
+        width: auto;
+        height: auto;
+		
+    }
+	div.content h2{
+		margin: 130px;
+		line-height: 20px;
+	}
+	div.content h2 span{
+		left: 15px;
+	}
+} */
+/* @media (max-width: 1024px) {
+    .fireworks img {
+        width: auto;
+        height: auto;
+
+    }
+	div.content h2{
+		margin: 130px;
+		line-height: 20px;
+	}
+	div.content h2 span{
+		left: 15px;
+	}
+	
+} */
+
